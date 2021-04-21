@@ -20,7 +20,9 @@
     position: relative;
     width: 150px;
     height: 150px;
-    border: 3px solid #3498db;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #3498db;
 }
 
 .loader:before {
@@ -30,7 +32,9 @@
     left: 5px;
     right: 5px;
     bottom: 5px;
-    border: 3px solid #e74c3c;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #e74c3c;
 }
 
 .loader:after {
@@ -40,5 +44,7 @@
     left: 15px;
     right: 15px;
     bottom: 15px;
-    border: 3px solid #f9c922;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #f9c922;
 }
